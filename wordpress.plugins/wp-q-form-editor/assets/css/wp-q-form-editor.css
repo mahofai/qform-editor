@@ -1,0 +1,8 @@
+.wp-q-form-editor__error{
+ display: flex;
+ font-size: larger;
+ color: red;
+ justify-content: center;
+ align-content: center;
+  
+}

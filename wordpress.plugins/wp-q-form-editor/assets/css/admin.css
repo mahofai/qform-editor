@@ -1,0 +1,20 @@
+.wp-q-form-editor__settings--form {
+  padding: 1em 0;
+}
+
+.wp-q-form-editor__settings--form .button__clear {
+  background-color: red;
+  color: white;
+}
+.wp-q-form-editor__settings--form .button__clear:hover {
+  background-color: rgb(227, 0, 0);
+  color: white;
+}
+.wp-q-form-editor__settings--form .button__download {
+  background-color: beige;
+  color: gray;
+}
+.wp-q-form-editor__settings--form .button__download:hover {
+  background-color: rgb(245, 245, 176);
+  color: gray;
+}

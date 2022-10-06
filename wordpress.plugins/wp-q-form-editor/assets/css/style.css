@@ -1,0 +1,99 @@
+/* Grid */
+.wp-q-form-editor__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.q-grid::after {
+  content: '';
+  padding: 1em;
+  width: 30%;
+  margin: 20px 10px;
+}
+.q-grid-body{
+  box-shadow: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 1em;
+  width: 30%;
+  margin: 20px 10px;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #d9d9d9;
+}
+.q-grid-body-row {
+  display: flex;
+  width: 100%;
+}
+.q-grid-body--flex{
+  display: flex;
+}
+.q-grid-body-row-cell--column{
+  flex-direction: column;
+}
+.q-grid-body-row-cell-html {
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+}
+.q-grid-body-row--left{
+  width: 30%
+}
+.q-grid-body-row--right{
+  width: 70%
+}
+.q-grid-body-row-cell{
+  width: 100%; 
+  border: 1px solid #d9d9d9;
+  border: none;
+}
+.q-grid-body-row-cell-text{
+  padding: 0.1em
+}
+.q-grid-body-row-cell-text--large{
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-left: 1em;
+}
+.q-grid-body-row-cell-image img{
+  width: 120px;
+}
+.q-grid-body-row-cell-button__biography{
+  background-color: #2dd7db ;
+  border: none;
+  border-radius: .3em;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1em;
+  margin: .8em 0em 0em 1em;
+  padding: .5em .8em;
+}
+.have-not-biography .q-grid-body-row-cell-button__biography {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .q-grid-body {
+    width: 100%;
+  }
+}
+
+/* Qmodal for pop up */
+.q-modal__dialog {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  font-size: .9em;
+  height: 40%;
+  padding: 1em;
+  text-indent: 1.5em;
+  width: 50%;
+  overflow: scroll;
+  z-index: 1;
+}
+.q-modal-region--header{
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px){
+  .q-modal__dialog {
+    width: 70%;
+    height: 55%;
+  } 
+}

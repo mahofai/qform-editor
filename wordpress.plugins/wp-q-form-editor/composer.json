@@ -1,0 +1,29 @@
+{
+  "name": "questwork/wp-q-form-editor",
+  "description": "Questwork WordPress Form Submission library",
+  "version": "0.1.0",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Questwork\\WP\\Q\\Form\\Editor\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@git.questwork.com:qw.php.wp.utilities",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/donlee/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/donlee/.ssh/id_rsa"
+        }
+      }
+    }
+  ],
+  "require": {
+    "questwork/wp-utilities": "*"
+  }
+}
