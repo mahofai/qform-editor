@@ -1,0 +1,79 @@
+.q-form-editor-main__button {
+  display: flex;
+}
+
+.q-form-editor-main-preview {
+  margin: 5px;
+  border: solid 2px;
+}
+
+.q-form-editor-main-renderer__componentBox {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid blue;
+}
+
+.q-form-editor-main-renderer__button,
+.q-form-editor-modifier__button,
+.q-form-editor-modifier-input-format__button,
+.q-form-editor-modifier-input-options__button {
+  display: inline-flex;
+}
+
+.q-form-editor-main-renderer__upButton,
+.q-form-editor-main-renderer__downButton {
+  display: inline-block;
+  padding: 5px;
+  border: solid 1px;
+  cursor: pointer;
+}
+
+.q-form-editor-main__button,
+.q-form-editor-main-renderer__button,
+.q-form-editor-modifier__button,
+.q-form-editor-modifier-input-format__button,
+.q-form-editor-modifier-input-options__button {
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(173, 181, 207);
+  cursor: pointer;
+}
+
+.q-form-editor-modifier__error {
+  color: red
+}
+
+.q-form-editor-modifier-input-required__label,
+.q-form-editor-modifier-input-value-min-max__label,
+.q-form-editor-modifier-input-title__label,
+.q-form-editor-modifier-input-date__label,
+.q-form-editor-modifier-input-options__label,
+.q-form-editor-modifier-input-file-size__label,
+.q-form-editor-modifier-input-file-type__label,
+.q-form-editor-modifier-input-format__label,
+.q-form-editor-modifier-input-min-max__label {
+  display: inline
+}
+
+.q-form-editor-modifier-input-format__hint {
+  color: blue;
+}
+
+.q-form-editor-modifier-input-options__option {
+  display: inline-block;
+  padding: 5px;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.disable {
+  color:grey;
+  cursor: default;
+}
