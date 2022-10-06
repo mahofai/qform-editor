@@ -1,0 +1,108 @@
+$q-list-body-row--border-color: #d9d9d9;
+$q-list-header--border-color: #fff;
+$q-list-header--bkg-color: #2196f3;
+$q-list-footer--border-color: #fff;
+$q-list-footer--bkg-color: #2196f3;
+
+.q-list-header {
+  width: 100%;
+}
+.q-list-header__row {
+  background-color: $q-list-header--bkg-color;
+  color: $q-list-header--border-color;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.q-list-header__cell {
+  border: 1px solid $q-list-header--border-color;
+  padding: 0.5em;
+  flex: 1;
+  flex-grow: 1;
+}
+.q-list-body {
+  width: 100%;
+}
+.q-list-body-action {
+  width: 100%;
+}
+.q-list-body-action__item {
+  display: inline-block;
+}
+.q-list-body-action__button {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 2px;
+}
+.q-list-body-action__button-label {
+  display: inline-block;
+}
+.q-list-body-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  &:nth-child(even) {
+    background-color: #eeeeee;
+  }
+}
+.q-list-body-row-cell {
+  border: 1px solid $q-list-body-row--border-color;
+  padding: 0.5em;
+  flex: 1;
+  flex-grow: 1;
+}
+.q-list-body-row-cell-action {
+  display: flex;
+  flex-wrap: wrap;
+}
+.q-list-body-row-cell-action__button {
+  cursor: pointer;
+}
+.q-list-body-row-cell-action__button-label {
+  display: inline-block;
+}
+.q-list-body-row-cell-image__img {
+  max-width: 100%;
+}
+.q-list-header__cell--checkbox {
+  flex: 0;
+  width: 1em;
+}
+.q-list-footer {
+  width: 100%;
+}
+.q-list-footer__row {
+  background-color: $q-list-footer--bkg-color;
+  color: $q-list-footer--border-color;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.q-list-footer__cell {
+  border: 1px solid $q-list-footer--border-color;
+  padding: 0.5em;
+  flex: 1;
+  flex-grow: 1;
+}
+@media only screen and (max-width: 992px) {
+  .q-list-header__row {
+    flex-direction: row;
+  }
+  .q-list-body-row {
+    flex-direction: column;
+  }
+  .q-list-footer__row {
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .q-list-header__row {
+    flex-direction: column;
+  }
+  .q-list-body-row {
+    flex-direction: column;
+  }
+  .q-list-footer__row {
+    flex-direction: column;
+  }
+}

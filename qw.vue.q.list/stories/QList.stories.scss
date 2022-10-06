@@ -1,0 +1,107 @@
+@import './assets/font-awesome-4.7.0/css/font-awesome.min.css';
+
+.q-list-header__cell--flex-4 {
+  flex-grow: 4;
+}
+.q-list-header__cell--flex-2 {
+  flex-grow: 2;
+}
+
+/* q-list-layout5 */
+.q-list-layout5 .q-list-footer__external-title {
+  text-align: center;
+}
+.q-list-layout5 .q-list-footer__row {
+  background-color: red;
+}
+.q-list-layout5 .q-list-header__external-title {
+  font-size: 2em;
+  text-align: center;
+}
+.q-list-layout5 .q-list-header__internal-title {
+  background-color: lightblue;
+  color: #333;
+}
+
+
+/* q-list--layout6 */
+.q-list--layout6 {
+  background: #eee;
+  color: #fff;
+}
+.q-list--layout6 .q-list__title {
+  font-size: 2em;
+}
+.q-list-header__cell--flex-9 {
+  flex-grow: 9;
+}
+.q-list--layout6 .q-list-body-row {
+    &:nth-child(odd) {
+        color: #000;
+      }
+  &:nth-child(even) {
+    background-color: #ff0000;
+  }
+}
+
+/* q-list--layout7 */
+.q-list--layout7 .q-list-body-action {
+  padding: 0.3em;
+}
+.q-list--layout7 .q-list-body-action__button {
+  color: white;
+  margin-left: 10px;
+}
+.q-list--layout7 .q-list-body-action__button--delete {
+  background-color: #DA534F;
+}
+.q-list--layout7 .q-list-body-action__button--view {
+  background-color: #159513
+}
+
+/* q-list--layout8 */
+.q-list--layout8 .q-list-body-row-cell-action__button--action-a{
+  background-color: pink;
+}
+.q-list--layout8 .q-list-body-row-cell-action__button--action-b {
+  background-color: #5AC1DF;
+}
+.q-list--layout8 .q-list-body-row-cell-action__button--action-c {
+  background-color: #5CB85C;
+}
+.q-list--layout8 .q-list-body-row-cell-action__button--action {
+  margin: 2px 5px;
+  padding: 0 3px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+/* q-list--layout9 */
+.q-list--layout9 .q-list-body-action__button--delete {
+  background-color: #DA534F;
+}
+.q-list--layout9 .q-list-body-action__button--view {
+  background-color: #159513
+}
+.q-list--layout9 .q-list-body-row-cell-action__button--action {
+  margin: 2px;
+  padding: 0 3px;
+  border: none;
+  border-radius: 3px;
+}
+.q-list--layout9 .q-list-body-row-cell-action__button--action-a {
+  background-color: pink;
+}
+.q-list--layout9 .q-list-body-row-cell-action__button--action-b {
+  background-color: #5AC1DF;
+}
+.q-list--layout9 .q-list-body-row-cell-action__button--action-c {
+  background-color: #5CB85C;
+  color: #fff;
+}
+.q-list--layout9 .q-list-header__cell--checkbox {
+  flex: 0;
+  width: 1em;
+}
