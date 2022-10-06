@@ -1,0 +1,128 @@
+.q-grid-editor-box-item__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.q-grid-editor-box-item__buttons > div {
+  cursor: pointer;
+  display: inline;
+  padding: 1em 1em 1em 1em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.q-grid-editor-form {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 10px;
+}
+.q-grid-editor-form__component{
+  font-weight: bold;
+}
+.q-grid-editor-form__label {
+  display: inline-block;
+}
+.q-grid-editor-form__key {
+  padding: 1em 0;
+  font-weight: bold;
+}
+.q-grid-editor-form__placeholder {
+  font-weight: bold;
+}
+.q-grid-editor-form__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(173, 181, 207);
+}
+
+.q-grid-editor-main {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 20px;
+}
+.q-grid-editor-main__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(173, 181, 207);
+}
+.q-grid-editor-main-box {
+  border: 1px solid rgb(206, 56, 56);
+  min-height: 50px;
+}
+.q-grid-editor-main-box-cell {
+  flex-grow: 1;
+  min-height: 50px;
+  margin: 10px;
+}
+.q-grid-editor-main-box-item {
+  min-height: 50px;
+  height: 100%;
+}
+.q-grid-editor-main-box-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  font-size: large;
+}
+.q-grid-editor-main-box-item__component {
+  font-size: medium;
+  color: rgb(5, 185, 35);
+}
+.q-grid-editor-main-box-item__name {
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(5, 185, 35);
+}
+
+.q-grid-editor-split {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 10px;
+}
+.q-grid-editor-split__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(173, 181, 207);
+}
+
+.q-grid-body-row-cell--column {
+  display: flex;
+  flex-flow: column wrap;
+}
+.q-grid-body-row-cell--row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+*{
+  font-size: large;
+}
+
+
